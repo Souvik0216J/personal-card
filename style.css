@@ -3,7 +3,7 @@ body{
     font-family: 'Poppins';
     /* background: #081b29; */
     /* background: #3c79db; */
-    background: url(./assets/bg3.png);
+    background: url("./assets/hero.png");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -98,3 +98,7 @@ a{
 .btn:hover{
     background-color: #f61d41;
 }
+.left:hover{
+    cursor: pointer;
+}
+
