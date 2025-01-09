@@ -29,7 +29,7 @@ section{
 .top{
     padding: 20px 30px;
     border-bottom: 1px solid #d5cccc24;
-    font-size: 22px;
+    font-size: 24px;
 }
 .middle{
     display: flex;
@@ -102,3 +102,65 @@ a{
     cursor: pointer;
 }
 
+@media screen and (max-width: 600px) {
+    .card {
+        width: 90%;
+        height: auto;
+        min-height: 450px;
+    }
+
+    .top {
+        font-size: 22px;
+        padding: 15px 20px;
+        text-align: center;
+    }
+
+    .middle {
+        flex-direction: column;
+        align-items: center;
+        padding: 15px 20px;
+    }
+
+    .middle img {
+        width: 130px;
+    }
+
+    .middle .right {
+        margin: 20px 0;
+        text-align: center;
+    }
+
+    .social-icon {
+        justify-content: center;
+        margin-top: 15px;
+    }
+
+    ul {
+        padding-left: 20px;
+    }
+
+    .bottom {
+        justify-content: center;
+        padding: 0 20px 20px;
+    }
+}
+
+@media screen and (min-width: 601px) and (max-width: 768px) {
+    .card {
+        width: 80%;
+        height: auto;
+        min-height: 400px;
+    }
+
+    .top{
+        font-size: 24px;
+    }
+
+    .middle img {
+        width: 150px;
+    }
+
+    .middle .right {
+        margin-left: 30px;
+    }
+}
